@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f1f3f6;
+	overflow-y: hidden;
+}
+.left{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+}
+.right{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #f1f3f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.left h1{
+	text-align: center;
+	font-family: system-ui;
+	padding-top: 35px;
+}
+.left input{
+	display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 535px;
+    padding: 5px;
+}
+.left button{
+	display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 535px;
+    padding: 10px;
+	border: none;
+	color: darkblue;
+}
+.card{
+	width: 15.5cm;
+	height: 5cm;
+	border-bottom: 4px solid #ffde59;
+	border-top: 4px solid #ffde59;
+}
+.name{
+	height: 100%;
+	width: 50%;
+	background-color: #ffde59;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.s2{
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.name p{
+	font-size: 17px;
+    padding-top: 5px;
+    font-family: system-ui;
+    text-align: center;
+}
+.name h2{
+	font-family: system-ui;
+    text-align: center;
+}
+.s2 p{
+	padding-left: 10px;
+	font-family: system-ui;
+	word-wrap: wrap;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: system-ui;
+}
+#hd{
+	display: none;
+}
+#txt{
+	text-align: center;
+    padding-top: 21%;
+    font-family: system-ui;
+    font-weight: normal;
+}

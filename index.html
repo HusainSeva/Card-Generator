@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Card Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Creating A Form To Fill !-->
+<div class="container">
+<div class="left">
+<!-- Creating Form !-->
+<h1>Fill This Form To Generate Your Card</h1>
+<form>
+<input type="text" placeholder="Enter Your Compuny Name" id="name">
+
+<input type="text" placeholder="Enter Your Compuny Slogan" id="slogan">
+
+<input type="tel" placeholder="Enter Your Mobile No" id="phone">
+
+<input type="text" placeholder="Enter Your Location" id="location">
+
+<input type="text" placeholder="Enter Your Website Link" id="link">
+
+<input type="email" placeholder="Enter Your Email ID" id="emailid">
+</form>
+
+<button onclick="generate()">Submit</button>
+</div>
+<!-- Creating Card !-->
+<h2 id="txt">Your Card Will Display Here After Filling The Form</h2>
+<div class="right">
+<div class="card" id="hd">
+<div class="name">
+<h2 id="namefill">Husain Seva</h2>
+<p id="sloganfill">Web Developer At Google</p>
+</div>
+<div class="s2">
+<p id="numberfill">9752555438, 7999861782</p>
+<p id="adressfill">B 28 Hasanji Nager Indore (MP)</p>
+<a href="#" id="websitefill">https://www.site.com</a>
+<p id="emailfill">husainseva34@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
